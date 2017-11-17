@@ -1,0 +1,295 @@
+﻿@font-face{font-family:'font029cac313a8b76a9c4c7401e906120c6';
+src:url('https://nomail.com.ua/files/eot/029cac313a8b76a9c4c7401e906120c6.eot?#iefix') format('embedded-opentype'),
+url('https://nomail.com.ua/files/woff/029cac313a8b76a9c4c7401e906120c6.woff') format('woff'),url('https://nomail.com.ua/files/woff2/029cac313a8b76a9c4c7401e906120c6.woff2') 
+format('woff2');}@font-face{font-family:'HelveticaLTStd-Blk';src:local('HelveticaLTStd-Blk'),url('https://nomail.com.ua/files/woff/029cac313a8b76a9c4c7401e906120c6.woff')
+ format('woff');}#helveticaltstdblack{font-family:'HelveticaLTStd-Blk';}
+.font029cac313a8b76a9c4c7401e906120c6{font-family:'font029cac313a8b76a9c4c7401e906120c6';}
+ 
+@font-face{font-family:'fontb9eeadb0b03ab87cf641bcd2cde54062';src:url('https://nomail.com.ua/files/eot/b9eeadb0b03ab87cf641bcd2cde54062.eot?#iefix') format('embedded-opentype'),url('https://nomail.com.ua/files/woff/b9eeadb0b03ab87cf641bcd2cde54062.woff') format('woff'),url('https://nomail.com.ua/files/woff2/b9eeadb0b03ab87cf641bcd2cde54062.woff2') format('woff2');}@font-face{font-family:'HelveticaLTStd-Roman';src:local('HelveticaLTStd-Roman'),url('https://nomail.com.ua/files/woff/b9eeadb0b03ab87cf641bcd2cde54062.woff') format('woff');}#helveticaltstdroman{font-family:'HelveticaLTStd-Roman';}.fontb9eeadb0b03ab87cf641bcd2cde54062{font-family:'fontb9eeadb0b03ab87cf641bcd2cde54062';}
+   
+@font-face{font-family:'font516c0073254e129d27a76d1460f52032';src:url('https://nomail.com.ua/files/eot/516c0073254e129d27a76d1460f52032.eot?#iefix') format('embedded-opentype'),url('https://nomail.com.ua/files/woff/516c0073254e129d27a76d1460f52032.woff') format('woff'),url('https://nomail.com.ua/files/woff2/516c0073254e129d27a76d1460f52032.woff2') format('woff2');}@font-face{font-family:'HelveticaLTStd-Bold';src:local('HelveticaLTStd-Bold'),url('https://nomail.com.ua/files/woff/516c0073254e129d27a76d1460f52032.woff') format('woff');}#helveticaltstdbold{font-family:'HelveticaLTStd-Bold';}.font516c0073254e129d27a76d1460f52032{font-family:'font516c0073254e129d27a76d1460f52032';}
+ 
+@font-face{font-family:'font09fbf0911aa25976c6a2d5c4e914be4a';src:url('https://nomail.com.ua/files/eot/09fbf0911aa25976c6a2d5c4e914be4a.eot?#iefix') format('embedded-opentype'),url('https://nomail.com.ua/files/woff/09fbf0911aa25976c6a2d5c4e914be4a.woff') format('woff'),url('https://nomail.com.ua/files/woff2/09fbf0911aa25976c6a2d5c4e914be4a.woff2') format('woff2');}@font-face{font-family:'HelveticaLTStd-Light';src:local('HelveticaLTStd-Light'),url('https://nomail.com.ua/files/woff/09fbf0911aa25976c6a2d5c4e914be4a.woff') format('woff');}#helveticaltstdlight{font-family:'HelveticaLTStd-Light';}.font09fbf0911aa25976c6a2d5c4e914be4a{font-family:'font09fbf0911aa25976c6a2d5c4e914be4a';}
+body, header, article, nav, div, li, ul, input, span{margin:0px; padding:0px;}
+button{margin:0px auto;}
+	a{text-decoration:none;}
+html{height:100%;}
+body{width:100%;min-width:380px;height:100%;font-size:14px;font-family:'HelveticaLTStd-Light';background-color:#ffffff;overflow-x:hidden;margin:0px auto;
+transition: .5s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/}
+.wrapper{margin:0px auto;min-height:100%;position:relative;}
+.clearfix{clear:both;width:0px;}
+ h2{font-size:2.14em;font-family:;text-align:center;
+color:#4c505d;
+}
+
+
+
+
+header{width:100%;height:104px;background-color:#4c98a4;opacity:0.85;filter: alpha(opacity=85);padding:0% 2.66%;padding-top:32px;
+box-sizing:border-box;z-index:1000;}
+.header_top{width:100%;height:36px;text-align:right;position:relative;
+white-space:nowrap;line-height:36px;}
+
+.container {font-size:1em;
+margin: 0 auto;
+max-width: 960px;
+width:100%;
+padding: 0 1.56%;
+} 
+
+.logo{float:left;display:inline-block;width:180px;max-height:31px;vertical-align:middle;margin-right:23%;
+}
+
+.body_menu_bl{position: relative;float:right;width:50%;white-space:nowrap;
+}
+ul .body_menu{width:100%;padding-right:20px;box-sizing:border-box;}
+.body_menu li{ list-style:none;display:inline;display:inline-block;width:25%;
+margin-left:-0.4px;text-align:center;} 
+.body_menu li a{display:block;font-family:'HelveticaLTStd-Roman', Myriad Pro;font-style:regular;
+font-size:1.285em;margin:0px; text-decoration:none;text-align:center;
+ text-transform:uppercase;padding:0px;color:#ffffff;vertical-align:middle;}
+
+.body_menu li a:hover{color:#23293c;}
+/* кнопка переключения меню, появляющаяся при ширине 768px */
+.nav-toggle {
+display: none;
+position: absolute;right:15%;top:0px;
+float: right;
+width: 34px;
+height: 34px;
+margin-left: 20px;
+background: #EF5A42;
+background:url("../images/icon-menu.png") no-repeat center center;
+cursor: pointer;border:solid #ffffff;
+}
+
+.nav-toggle:focus+.body_menu ul{display:block;}
+
+.nav-toggle span:before, .nav-toggle span:after {
+content: "";
+position: absolute;
+display: block;
+left: 0;
+width: 100%;
+height: 2px;
+background: white;
+}
+.nav-toggle span:before {
+top: -10px;
+}
+.nav-toggle span:after {
+bottom: -10px;
+}
+/* класс, который будет добавлен в верхнему меню при нажатии на кнопку и покажет скрытое меню*/
+.body_menu.active {
+max-height: 123px;
+}
+.clearfix{clear:both;width:0px;}
+
+.more{margin:30px auto;padding:11px 48px;display:inline;display:inline-block;
+color:#fff;font-family:;
+            background-image: none; 
+            background-color: transparent;border:solid 3px #ffffff;
+			border-radius: 3px;font-size:2.14em;
+}
+.more:hover{border:solid 3px #4c98a4;padding:11px 48px;color:#4c98a4;}
+.more:focus{background-color: #4c98a4; border:solid 3px #4c98a4;padding:11px 48px;color:#ffffff;}
+
+.h1content{wwidth:606px;width:100%; min-height:56px;background:url("images/h1_bg.png") top center;
+border-bottom:1px solid #ececec;background-size:cover;padding:0 10px;margin:0;
+box-sizing:border-box;line-height:1.6em;}
+
+.menu_active{max-width: 450px;
+display:inline-block;padding:15px 25px;
+}
+
+
+
+
+article{margin:0px auto;}
+.first{position:relative;width:100%;max-widthh:1280px;height:443px;margin:0px auto;padding:7% 16.0% 7%;box-sizing:border-box;
+background-color:#ffffff;}
+ .first h2{font-size:2.14em;font-family:'Helvetica LT Std Light', Myriad Pro;font-family:'font09fbf0911aa25976c6a2d5c4e914be4a';text-align:center;padding-bottom:40px;
+color:#4c505d;
+}
+.first p{font-size:1em;font-family:'fontb9eeadb0b03ab87cf641bcd2cde54062', Myriad Pro;text-align:center;width:100%;
+color:#4c505d;margin:0 auto;margin-bottom:5.6%;
+}
+.icon_menuu{max-width:420px;height:55px;border:solid #000000;}
+.icon_menu{max-width:450px;width:30%;margin:0px auto;height:55px;
+position:absolute;left:50%; margin-left:-15%;}
+.icon-menu-bl{width:100%;white-space:nowrap;}
+.block{width:33%;display:inline-block;vertical-align:middle;text-align:center;
+box-sizing:border-box;padding:10px 0px;}
+.block_hover{-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+ width: 70px;height: auto;
+ }
+
+.block:hover{background-color:#efefef;opacity: 0.9;
+  filter: alpha(opacity=90);}
+.block a{text-decoration:none;}
+
+.aboute{width:100%; height:468px;paddingg:95px 0 95px;padding:7.45% 0 7.45%;box-sizing:border-box;
+background-color:#00d089;margin:0px auto;}
+.block_foto{width:350px; height:135px;margin:0px auto;margin-bottom:10px;font-size:26px;color:#ffffff;font-family:'HelveticaLTStd-Bold'}
+.foto_img{width:135px; height:135px;float:left;margin-right:36px;} 2.8%
+.block_foto h3{font-size:26px;color:#ffffff;}
+.foto_z{width:127px; height:92px;}
+.fig1{max-width:135px; height:auto;
+margin-right:37px;float:left;} 
+.aboute p{clear:both;text-align:center;font-size:1.285em;
+font-family:HelveticaLTStd-Light;color:#ffffff;line-height:2;width:70%; height:auto;margin-topp:60px;margin:60px auto;}
+
+.contact{width: 100%;height:530px;background-color:#666666;
+background-image:url("../images/map.png");background-size:cover;border:1px solid #00d089;}
+/*display:table;
+класс добавляем для display:cell для вертикального выравнивания блока*/
+.contact_forma{width: 430px;height:430px;background-color:rgba(253, 253, 253, 0.85);
+margin:25px auto;border-radius: 50%;display:table;}
+form{width:277px;height:277px;display:table-cell;
+vertical-align:middle;text-align:center;
+background-image:none;}
+.contact_forma input, .contact_forma select{display:inline-block;border:none;background:none;overflow:hidden;}
+.contact_forma input[type="text"]{-webkit-appearance: none;
+-moz-appearance: none;font-size:1em;color:#4c505d;font-family:HelveticaLTStd-Light;
+width:274px;margin-top:0px;padding:10px 18px;background-color:#ffffff;border:1px solid #d8d8d8;border-radius: 1px;
+margin-bottom:14px;
+}
+textarea{-webkit-appearance: none;
+-moz-appearance: none;font-size:1em;color:#4c505d;font-family:HelveticaLTStd-Light;
+width:274px;margin-top:0px;padding:10px 18px;background-color:#ffffff;border:1px solid #d8d8d8;border-radius: 1px;margin-bottom:35px;
+}
+.contact_forma input[type="submit"]{-webkit-appearance: none;cursor: pointer;display:block;width: 66px;height: 67px;
+-moz-appearance: none;background-color:#d8d8d8;background:url("../images/yes.png") no-repeat center center;background-size:cover;margin:0 auto;}
+
+  
+
+
+
+
+
+.footer{width:100%;background-color:#00d089;position: absolute;bottom: 0;
+height:40px;box-sizing:border-box;text-align:center;border:solid #00d089;}
+
+.footer h3{font-family:Myriad Pro, 'proxima_nova_altbold';text-transform:uppercase;font-size:1em;color:#ffffff;line-height:40px;}
+
+
+
+
+
+
+
+
+
+/* кнопка переключения меню, появляющаяся при ширине 768px */
+.nav-toggle {
+display: none;
+position: absolute;right:15%;top:2.66%;
+float: right;
+width: 34px;
+height: 34px;
+margin-left: 20px;
+background: #EF5A42;
+background:url("images/icon-menu.png") no-repeat center center;background-repeat:no-repeat;
+cursor: pointer;border:solid #ffffff;
+}
+
+.nav-toggle:focus+.body_menu ul{display:block;}
+
+.nav-toggle span:before, .nav-toggle span:after {
+content: "";
+position: absolute;
+display: block;
+left: 0;
+width: 100%;
+height: 2px;
+background: white;
+}
+.nav-toggle span:before {
+top: -10px;
+}
+.nav-toggle span:after {
+bottom: -10px;
+}
+/* класс, который будет добавлен в верхнему меню при нажатии на кнопку и покажет скрытое меню*/
+.body_menu.active {
+max-height: 123px;
+}
+
+@media screen and (max-width: 1184px) {
+header{padding-right:5%;}
+	.logo{margin-right:10%;}
+	.aboute p{margin:30px auto;}
+	}
+@media screen and (max-width: 1000px) {	
+.logo{margin-right:10%;}
+	.body_menu_bl{width:65%;}
+		ul .body_menu li{width:20%;}
+	.body_menu li a{font-size:1.0em;}
+}
+
+@media screen and (max-width: 900px) {
+	.logo{width:160px; height:auto;}
+		ul .body_menu{padding-right:10px;}
+		.logo{margin-right:0%;}
+	.block_foto{margin-bottom:30px;}
+	.aboute p{margin:30px auto;}
+	.body_menu li a{font-size:1.1em;padding:0 2px;}
+	.more{margin:25px auto;padding:11px 48px;display:inline;display:inline-block;
+color:#fff;font-family:;
+            background-image: none; 
+            background-color: transparent;border:solid 3px #ffffff;
+			border-radius: 3px;font-size:30px;
+}
+}
+@media screen and (max-width: 800px) {
+.more{margin:20px auto;padding:7px 35px;}
+.icon_menu{width:50%;height:50px;margin-left:-25%;}
+}
+@media screen and (max-width: 766px) {
+    .nav-toggle {display: block;}
+	.body_menu{display: none;}
+	.body_menu li a{font-size:0.85em;padding:8px;}
+	.icon_menu{height:45px;}
+		
+}
+@media screen and (max-width: 640px) {
+	.block_foto{margin-bottom:30px;}
+	.aboute p{font-size:1.0em;}
+	.block k{display: block;}
+	.contact_forma form{max-width:200px;height: auto;}
+	.contact_forma{vertical-align:middle;}
+	.contact_forma_ps{width: 330px;height: 330px;}
+}
+
+@media screen and (max-width: 590px) {
+	.more{margin:20px auto;padding:7px 38px;
+border:solid 2px #ffffff;border-radius: 3px;font-size:20px;
+}
+.more:hover{border:solid 2px #4c98a4;padding:7px 38px;color:#4c98a4;}
+.more:focus{background-color: #4c98a4; border:solid 2px #4c98a4;padding:7px 38px;
+color:#ffffff;}
+.icon_menu{width:80%;margin-left:-40%;}
+
+}
+@media screen and (max-width: 500px) {
+.more{margin:3px auto;padding:7px 30px;
+border-radius: 3px;font-size:1.1em;
+}
+.more:hover{padding:7px 30px;color:#4c98a4;}
+.more:focus{padding:8px 30px;color:#ffffff;}	
+.contact_forma{width: 330px;height:330px;}
+.icon-menu{height:45px;}
+.block img{	height:45px;width:auto;}	
+form{width:200px;height:200px;padding-top:15px;}
+textarea, .contact_forma input[type="text"]{width:200px;}
+textarea{margin-bottom:15px;}
+.contact_forma input[type="submit"]{width: 50px;height: 49px;}
+.footer h3{font-size:0.8em;}
+}
+@media screen and (max-width: 400px) {
+.more{padding:6px 28px;}
+}	
