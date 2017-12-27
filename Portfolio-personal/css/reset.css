@@ -1,0 +1,42 @@
+﻿html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, b,ul, li, form, label, table,tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+    outline: none;
+	cursor: pointer;
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+ input, select, button, textarea {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+nav ul {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+Для Ie8.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
