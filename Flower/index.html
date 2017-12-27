@@ -4,8 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="language" content="English"> 
-<title>Flower</title>
-
+<title>Cinema news</title>
 <link rel="stylesheet" href="css/style.css" type="text/css"/>
 <!--[if lt IE 9]>
 	<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
@@ -13,12 +12,20 @@
 <![endif]-->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="jquery.js" type="text/javascript"></script>
+<script type="text/javascript">// <![CDATA[
+$(document).ready(function(){
+    $(".nav-toggle").click(function(){
+        $(".top_menu").slideToggle("slow");
+        return false;
+    });
+});
+// ]]></script>
 </head>
 
 <body>
 <header>
 <div class="top">
-<div class="log"><a href=""><img src="images/logo.png" alt="Our company"></a></div>
+<div class="log"><img src="images/logo.png" alt="Our company"></div>
 <div class="top_menu">
 <ul>
 <li><a href="">Home</a></li>
@@ -27,6 +34,7 @@
 <li><a href="">Contact</a></li>
 </ul>
 </div>
+<div class="nav-toggle"><a></a></div>
 <button class="login"><img src="images/logo_man.png" alt="Our company"><span>Login</span></button>
 </div>
 
@@ -43,8 +51,12 @@
 
 <div class="blocks">
 <div class="blocks-row">
-<div class="block bl">
+<div class="block bl view-first">
 <h4>Tickets</h4>
+<div class="mask">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+industry. Lorem Ipsum has been the industry's standard dummy text </p>
+</div>
 </div>
 <div class="block green">
 <h4>Camera</h4>
