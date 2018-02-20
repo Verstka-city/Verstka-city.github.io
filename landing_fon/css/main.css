@@ -95,7 +95,9 @@ body {
 	  background: url(../img/header2.jpg);
 	background-attachment:fixed;
     background-size: cover;
-	font-family: 'Clear Sans', sans-serif;
+	/*font-family: 'Clear Sans', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+	
 	overflow: hidden;
 	overflow-y: scroll;
 	font-size:16px;
@@ -1537,7 +1539,7 @@ text-align:center;background-color:#BDC3C7;}
 .social {
     width: 50px;
     height: 50px;
-	margin-bottom:10px;
+	margin-bottom:1px;
     background: #bdc3c7;
     vertical-align: middle;
 }
@@ -1638,6 +1640,12 @@ font-size: 1.4em;}
 }
 
 /*===Break Point===*/
+/*@media (max-width: 1022px){
+	.navbar-custom{text-align:center;ba}
+	.navbar-custom .logo {margin:20px;
+    border: solid;width:120%;
+}*/
+}
 @media (max-width: 1000px){
 
 }
@@ -1691,7 +1699,8 @@ text-align:center;background-color:#BDC3C7;}
 	margin-bottom:10px;
     background: #bdc3c7;
     vertical-align: middle;
-}	
+}
+.excellence-text-sect2{padding-bottom:35px;}	
 }
 /*===Break Point===*/
 @media (max-width: 767px) {
