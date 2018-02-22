@@ -263,7 +263,7 @@ input[type="text"],input[type="tel"],input[type="email"],input[type="password"],
 	height:42px;
 	padding:10px 15px;
 	text-transform:inherit;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 15px;
 }
 input[type="text"].tranparent,input[type="tel"].tranparent,input[type="email"].tranparent,input[type="password"].tranparent,textarea.tranparent{
@@ -330,7 +330,7 @@ margin-left:13%;}
 .eschool .header h2{color:#d3d3d3;font-family: 'Comfortaa', cursive;
 font-size: 50px;white-space: nowrap;}
 .headerInner h2 .shkola{color:#0E081E;}
-.mt-31{ margin-bottom:0px;width:50%;height:200px;}
+.mt-31{ margin-bottom:0px;width:50%;padding-bottom:20px;}
 .mt-31 h4{color:#fff; line-height:1.3;font-family: 'Jura', sans-serif;text-align:left;}  /*font-family: "Clear Sans";*/
 #section0 h4{font-size: 1.6em;color:#fff;}
 
@@ -1472,6 +1472,12 @@ a.load-more, .blog-post a.read-more {
 .nav-triger a:hover:{color: #4458B1; }
 /*section3*/
 
+.mt-31 h4 {
+    font-size: 1.4em;
+}
+.rasp h4{}
+
+
 #section2, #section3{padding-top:20px;background-color: transparent;}
 .our-courses .container{color:#333;background-color: rgba(255, 255, 255, .8);}
 /*.excellence-text, */ #section2, #section4, #section6{color:#333;background-color: rgba(255, 255, 255, .0);}
@@ -1482,6 +1488,7 @@ a.load-more, .blog-post a.read-more {
 border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;
 padding:10px;box-sizing:border-box;height:100%;background-color:#fff;color:#666;display:none;}
 .info-click h6{color:#FFC000;}
+
 #section3 .info:hover{padding-bottom:100px;}
 #section3 .info:hover>.info-click{display:block;padding-bottom:200px;  
 animation-name: myopacity;
@@ -1507,28 +1514,28 @@ visibility: visible !important;
 .logo{width:140px; height:auto;}
 .p-dark{color:#333;line-height:2;}
 .info-pr h5{color:#4458B1; font-weight:bold;text-align:center;}
-.course1, .course2{height:250px;border:2px solid #fff;padding:1% 3%;}
-.course1 p, .course2 p{color:#666;padding-bottom:20px;
+.course1, .course2{height:250px;border:2px solid #fff;padding-top:2%;}
+.course1 p, .course2 p{padding-bottom:20px;
 font-family: 'Jura', sans-serif;}
 .course1 p, .course2 p {
     color: #333;
-    padding-bottom: 20px;
-    font-family: 'Jura', sans-serif;
-}
+	padding:0;}
 
 .course1:first-child{background-color:	#B3BDED;}
 .course2:first-child{background-color:	#E7E7DC;}
 .course1:last-child{background-color:#B5B6A7;}
 .course2:last-child{background-color:	#B3BDED;}
 
-.course1:first-child:hover{background-color:#5C8FC5;color:#fff;}
-.course2:first-child:hover{background-color:#5C8FC5;}
-.course1:last-child:hover{background-color:#5C8FC5;}
-.course2:last-child:hover{background-color:#5C8FC5;}
+.course1:hover{background-color:#34495E;}
+.course1:hover p{color:#fff;}
+.course1:hover h5{color:#B3BDED;}
+.course2:hover{background-color:#34495E;}
+.course2:hover p{color:#fff;}
+.course2:hover h5{color:#B3BDED;}
  .course1:hover, .course2:hover{transition:All 0.7s ease;
--webkit-transition:All 0.7s ease;
--moz-transition:All 0.7s ease;
--o-transition:All 0.7s ease;}
+-webkit-transition:All 1.0s ease;
+-moz-transition:All 1.0s ease;
+-o-transition:All 1.0s ease;}
 
 .soc{position:fixed;bottom:10px; right:0;width:80px;padding:15px;
 border-radius:2px;
@@ -1546,6 +1553,13 @@ text-align:center;background-color:#BDC3C7;}
 .container {
   width:90%;
  }
+ 
+ .timee{position:absolute; bottom:10px; right:10px;color: rgba(204,153,0,0.7);
+ font-family: 'Comfortaa', cursive;} 
+
+
+
+
 /*=========================
 8-Responsive
 ==========================*/
@@ -1553,7 +1567,7 @@ text-align:center;background-color:#BDC3C7;}
 
 /*===Break Point===*/
 @media (max-width: 1199px) {
-.section6 .our-courses{margin-right:10%;;}
+
 .courses{width: 95%;}
     .container{
         width: 98%;
@@ -1667,7 +1681,8 @@ font-size: 1.4em;}
     line-height: 1.7;
 }
 	p{padding-left:3%;padding-right: 10%;}
-	 h2 {font-size: 2.2em;}
+	
+	 h2 {font-size: 2.2em;padding-right: 15px;}
 	 h4 {
     font-size: 1.4em;
 }
@@ -1678,8 +1693,8 @@ h5{font-size: 18px;}
 .eschool .header{
     padding-top:50px;}
 	.eschool .header h2 {
-  font-size: 40px;}
-}
+  font-size: 40px; }
+
 @media (max-width: 840px) {
 	
 .headerInner{
@@ -1700,7 +1715,9 @@ text-align:center;background-color:#BDC3C7;}
     background: #bdc3c7;
     vertical-align: middle;
 }
-.excellence-text-sect2{padding-bottom:35px;}	
+.excellence-text-sect2{padding-bottom:35px;}
+  .course1, .course2{height:280px;}
+ 
 }
 /*===Break Point===*/
 @media (max-width: 767px) {
@@ -1708,7 +1725,7 @@ text-align:center;background-color:#BDC3C7;}
     margin-bottom: 5px;
     }
 	#section0 form{display:none;}
-	.mt-31{width:90%;height: auto;}
+	.mt-31{width:90%;}
     .eschool .header{
         padding: 100px 0 20px;
     }
@@ -1746,6 +1763,7 @@ text-align:center;background-color:#BDC3C7;}
 }
 @media (max-width: 764px) {
 #section3 .col-sm-4{padding-bottom:20px;border-bottom: solid;}
+.container{padding-left:0;}
 }
 @media (max-width: 750px) {
 .course1, .course2{height:auto;}
@@ -1800,6 +1818,7 @@ margin-left:18%;}
 @media (max-width: 480px) {
 	.headerInner{
 margin-left:20%;}
+.our-courses .container{background-color:#fff;}
 .eschool .header h2{font-size:19px;}
 	.row{margin:0;}
 	.eschool .header {
@@ -1808,6 +1827,7 @@ margin-left:20%;}
 	
 	footer {
     padding: 15px;
+	padding-bottom:60px;
 }
     footer span{font-size: 0.7em;line-height:.5;}
    .mt30{padding: 4%;}
