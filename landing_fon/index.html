@@ -44,8 +44,8 @@ Style Sheets
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 </head>
 
-<body class="eschool" data-spy="scroll" data-target="#navbar" data-offset="70">
-
+<body class="eschool col-md-12 col-sm-12 col-xs-12" data-spy="scroll" data-target="#navbar" data-offset="70">
+<div class="polosa">
 <!--====================================
 Body Content
 =======================================-->
@@ -65,7 +65,7 @@ Body Content
                
 <li><a href="#section2">Курс 'Парковка'</a></li>
                 
-<li><a href="#section3">Цены</a></li>
+<li><a href="#section3">Курс 'Экспресс Парковка'</a></li>
                
  <li><a href="#section4">Контакты</a></li>
                 
@@ -82,9 +82,8 @@ Body Content
 <section id="section0" class="header">
  <div class="headerInner clearfix">
 <h2>Мы учим парковаться!</h2>
-<!--<h4 style='color:#A67C19'>достижение максимального результата<br> в кратчайшие сроки</h4>-->
-  
- <div class="mt-31">
+
+<div class="mt-31">
 	<h4>Программа курса разработана для получения 
 	устойчивых навыков парковки автомобиля и маневрирования в ограниченном пространстве</h4>			
 				</div>
@@ -95,48 +94,63 @@ Body Content
                
  <div class="col-md-4 col-sm-6">
                 	
-<form  action="send.php" method='post'>
- <input type="text" placeholder="Ваше Имя:" required>
+<form  action="post.php" method='post'>
+ <input type="text" placeholder="Ваше Имя:" name="name" required>
 						
-<input type="email" placeholder="Ваш Email:" required>
+<input type="email" placeholder="Ваш Email:" name="email" required>
                     	
-<input type="tel" placeholder="Ваш номер телефона:" required>
+<input type="tel" placeholder="Ваш номер телефона:" name="message" required>
 						
 <button class="btn btn-default btn-head mt-20 mb-50">Оставить заявку</button>
                 	</form>
                 </div>
 				
             </div>
-			<div class="time shadow-anime"><img src="img/Stamp.png" alt="12 практических занятий" style="width:40%;" > </div>
-		 <div class="mt-31 rasp">
-<h4 style="line-height: 1.8;color:#FFC000">Расписание занятий будет уточняться по мере набора групп</h4>			
-			</div>
+			<div class="time shadow-anime"><img src="img/Stamp.png" alt="12 практических занятий" > </div>
+		 
 			</div>
    
 </section>
 
-<section id="section2" class="our-courses">
-    <div class="container"  style='margin-left:10%;'>
+
+
+<section id="section2" class="our-courses mb-25">
+    <div class="container" >
         <div class="row">
             <div class="col-md-12">        
-                    <div class="text-center  head">
-                  <h2><span>Курс 'Парковка'</span> для Вас, если:</h2>
-					 <ul class="excellence-text mb-50">
-					 <li>Вы водитель со стажем, но испытываете трудности в парковке;</li>
-					  <li>Вы начинающий водитель;</li>
-					   <li>Вы купили новый автомобиль и пока не чувствуете габариты;</li>
-					  <li style='color:#4458B1; font-style:italic;'>Вы человек, который всегда и во всем хочет добиться совершенства!</li>
+                    <div class="text-center mt-35 head  fon">
+                  <h2>Курс <span>'Парковка'</span> </h2>
+				  <h5>для всех, кто испытывает трудности в парковке</h5>
+					 <ul class="excellence-text mb-25" style="float:left;">
+					 <li>Занятия проходят на закрытой площадке;</li>
+					  <li>В большинстве упражнений вместо колышек на площадке используются макеты машин, приближенные к реальным размерам;</li>
+					  <li>В группе у одного инструктора не более 3-х человек на занятии;</li>
+					   <li>Занятия проходят на Вашей собственной машине;</li>
+					   <li>Примерное время занятия 90 минут;</li>
+					<li style='color:#333; font-weight:bold;'>Стоимость 12 часового курса - 190,0 белорусских рублей.</li>
 					  </ul>
-					  <img src="img/fon3.jpg" alt="Парковка в городе" style="width:80%;" > 
 					  </div>
+					  </div>
+					  </div>
+					   <div class="text-center head mb-50 mt-50 clearfix">
+					<div class="galery-row ">
+					 <div class="galery col-md-4 col-sm-6 col-xs-12" style="float:left; margin-bottom:10px;"><img src="img/slide1.jpg" alt="Парковка в городе"> 
+					 </div>
+					 <div class="galery col-md-4 col-sm-6 col-xs-12" style="float:left; margin-bottom:10px;"><img src="img/slide2.jpg" alt="Парковка в городе" > 
+					 </div>
+					 <div class="galery col-md-4 col-sm-6 col-xs-12" style="margin-bottom:10px;"><img src="img/slide3.jpg" alt="Парковка в городе" > 
+					 </div>
+					 <!---->
                 </div>
-				
-            </div>
+				 
+				 </div>
+				 
+           
        
-		    <div class="text-center head mb-50">
-			 <div class="row mb-50 ">
+		    <div class="text-center head mb-50 clearfix">
+			 <div class="row mb-25 ">
            <h2 class="mb-25">Что входит в <span>программу курса:</span></h2>
- <ul class="excellence-text-sect2">
+ <ul class="excellence-text-sect2 mb-25">
 					<li> Изучение техники и тактики (приёмов) пользования зеркалами заднего вида (правое боковое, левое боковое, внутрисалонное);</li>
 					   <li> Изучение/постановка габаритов автомобиля (передний бампер, задний бампер, боковые габариты);</li>
 					  <li>Уверенные навыки движения задним ходом по зеркалам заднего вида;</li>
@@ -145,14 +159,53 @@ Body Content
 <li> Парковка под углом(елочка) передним и задним ходом;</li>
 <li> Парковка в ограниченных для маневра местах.</li>
 					  </ul>
+		<div class="row mb-50">
+				<a href="#section4 " class="zapis">Позвоните, чтобы узнать подробнее</a>	  
+        </div>
+		 </div>
+		
+		  </div>
+		  </div>
+		  
+</section>
+
+<section id="section3" class="our-courses ">
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-12">        
+                    <div class="text-center mt-35 head">
+                  <h2>Курс <span>'Экспресс парковка'</span> </h2>
+				  <h5>для водителей со стажем</h5>
+					 <ul class="excellence-text mb-25" style="float:left;">
+					 <li>В группе у одного инструктора не более 2-х человек на занятии;</li>
+					 <li>Проработка конкретно тех элементов парковки, которые курсанту даются с трудом;</li>
+					  <li>Поиск и выявление ошибок в вашем стиле парковки;</li>
+					 <li>Примерное время занятия 90 минут;</li>
+					<li style='color:#333; font-weight:bold;'>Стоимость 1 занятия по 90 минут - ...,0 белорусских рублей.</li>
+					  </ul>
+					 
+					 
+                </div>
+				
+            </div>
+       
+		    <div class="text-center head mb-35 clearfix">
+			 <div class="row mb-50 ">
+           <h2 class="mb-25">Что входит в <span>программу курса:</span></h2>
+ <ul class="excellence-text-sect2">
+					<li> Последовательное выполнение всех видов парковки для выяснение неправильного поведения, нечеткого знания как действовать в данной ситуации при парковке;</li>
+					   <li>Проработка и исправление ошибок;</li>
+					  <li>Обзор и проработка распространенных, а также самых сложных ситуаций;</li>
+					
+
         </div>
 		  </div>
 		  </div>
 		  
 </section>
 
-<section id="section6" class="our-courses">
-    <div class="container " style='margin-left:10%; padding-right:10px;'>
+<!--<section id="section6" class="our-courses">
+    <div class="container ">
       
 
   <div class="text-center">     
@@ -208,7 +261,7 @@ Body Content
 	
 </section>
 
-<section id="section3" class="our-courses parallax parallax_one data-stellar-background-ratio='0.5' " style='background-position: center bottom'>
+<section id="section3" class="our-courses parallax parallax_one data-stellar-background-ratio='0.5' " style='background-position: center bottom; padding-right:10px''>
     <div class="overlay"></div>
     <div class="parallax_inner">
     <div class="container" style="background-color: rgba(255, 255, 255, .0);">
@@ -251,9 +304,9 @@ Body Content
             </div>
        </div>
     </div>
-</section>
+</section>-->
 
-<section id="section4" class="trial mt-35 text-bold text-center">
+<section id="section4" class="trial mt-50 text-bold text-center">
      <div class="container">
         <h2 class="mb-25 text-center">Есть вопросы -<span> звоните</span></h2>
         <div class="row">
@@ -262,18 +315,39 @@ Body Content
     	 		<h3 style="color:#333"><i style="color:#ffc000" class="fa fa-phone-square" aria-hidden="true"></i> +375 (<span>33</span>) <span>678-77-55</span> MTC</h3>
 				<h3 style="color:#333"><i style="color:#ffc000" class="fa fa-phone-square" aria-hidden="true"></i> +375 (<span>29</span>) <span>651-54-56</span> VEL</h3>
         	</div>
-        	<div class="col-xs-12 col-sm-6">
+        	<div class="col-xs-12 col-sm-6  text-center">
     	 		<h6>Email:</h6>
     	 		<h3 style="color:#333"><i style="color:#ffc000" class="fa fa-envelope" aria-hidden="true"></i><a style="color:#333" href="mailto:email"> ваш email</a></h3>
-        	</div>
+        	
+			  <img src="img/girl.png" alt="Парковка в городе" style="width:50%;float:right; padding-right:10px;" >
     	</div>
-    	
+    	</div>
         
     </div>
 </section> 
-<section id="section5" class="testimonials text-center color-white parallax parallax_two  data-stellar-background-ratio='0.5'">
-    <div class="overlay"></div>
-    <div class="parallax_inner owl-carousel">
+<section id="section5" class="trial mt-50 text-bold text-center parallax_two">
+     <div class="container">
+         <h2 class="mb-25" >Записаться на курс <span style="color:#ffc000">'Парковка'</span></h2>
+		 <h5>мы перезвоним Вам в течении часа после получении заявки</h5>
+        <div class="row">
+    	 	<div class="col-xs-12 col-sm-12 col-md-12 text-center" >
+    	 		<form  action="send.php" method='post' class="zajavka ">
+ <input type="text" placeholder="Ваше Имя:" required>
+						
+<input type="email" placeholder="Ваш Email:" required>
+                    	
+<input type="tel" placeholder="Ваш телефон:" required>
+						
++<button class="btn btn-default btn-head mt-20 mb-50">Оставить заявку</button>
+         </form>
+        	</div>
+        
+    	</div>
+        
+    </div>
+</section> 
+<!--<section id="section5" class="mt-35 mb-35 testimonials text-center color-white parallax parallax_two  data-stellar-background-ratio='0.5'">
+   
         <div class="container">
 		<div class="row">
 		<div class="text-center head">
@@ -281,7 +355,7 @@ Body Content
                 
             </div>
 			
-		<form  action="send.php" method='post' class="zajavka">
+		<!--<form  action="send.php" method='post' class="zajavka">
  <input type="text" placeholder="Ваше Имя:" required>
 						
 <input type="email" placeholder="Ваш Email:" required>
@@ -289,12 +363,11 @@ Body Content
 <input type="tel" placeholder="Ваш номер телефона:" required>
 						
 +<button class="btn btn-default btn-head mt-20 mb-50">Оставить заявку</button>
-         </form>
+         </form>-->
         
 		</div>
-		</div>
-          </div>
-</section>
+		
+</section>-->
 
     
 <footer class="text-center color-white">
@@ -313,6 +386,13 @@ Script Source
 <script src="js/jquery.prettyPhoto.js"></script>
 <script src="js/bootstrap-scrollspy.min.js"></script>
 <script src="js/main.js"></script>
+<script>function setHeiHeight() {
+    $('#section0').css({
+        height: $(window).height() + 'px'
+    });
+}
+setHeiHeight(); // устанавливаем высоту окна при первой загрузке страницы
+$(window).resize( setHeiHeight );</script>// обновляем при изменении размеров окна
 
 <div class="soc">
 <!--<i>Соцсети</i>-->
@@ -322,6 +402,6 @@ Script Source
 			<a href = "#" class = "social social-rss"><img src="img/rss.png" alt="Перейти на страницу новостей"></a>
 </div>
 <!--<div class="time shadow-anime"><h2>12 часов<br> практики </h2></div>-->
-
+</div>
 </body>
 </html>
